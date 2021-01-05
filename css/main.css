@@ -32,7 +32,8 @@ body{
   .nav-scroller {
     position: relative;
     z-index: 2;
-    height: 2.75rem;
+    padding: 0px 60px 0px 60px;
+    height: 1.75rem;
     overflow-y: hidden;
   }
   
@@ -140,3 +141,8 @@ body{
   .blog-blue{
       font-color: #00b6fe;
   }
+
+  a#blog-header-text {
+    color: #2c8fe6;
+    font-size: 15px;
+}
